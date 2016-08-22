@@ -1,8 +1,9 @@
 package myplugin
 
-class UrlMappings {
+class MyPluginUrlMappings {
 
     static mappings = {
+
         "/$controller/$action?/$id?(.$format)?"{
             constraints {
                 // apply constraints here
